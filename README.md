@@ -152,6 +152,6 @@ MIT License - Feel free to use this code for your own projects!
 
 ---
 
-_Built with ❤️ and in 24 hours_
+_Built with ❤️ in 24 hours_
 
 **Live Demo**: https://lubabazwadi2.github.io/NexusHub/
