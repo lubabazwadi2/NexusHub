@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>NexusHub - Your Digital Workspace</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<!-- Animated Background Elements -->
+		<div class="bg-animation">
+			<div
+				class="floating-coffee"
+				style="top: 10%; left: 5%; animation-delay: 0s"
+			>
+				<div class="coffee-cup">
+					<div class="steam"></div>
+				</div>
+			</div>
+			<div
+				class="floating-coffee"
+				style="top: 60%; right: 10%; animation-delay: 2s"
+			>
+				<div class="coffee-cup">
+					<div class="steam"></div>
+				</div>
+			</div>
+			<div
+				class="floating-key"
+				style="top: 20%; right: 15%; animation-delay: 1s"
+			>
+				A
+			</div>
+			<div
+				class="floating-key"
+				style="top: 80%; left: 20%; animation-delay: 3s"
+			>
+				W
+			</div>
+			<div
+				class="floating-key"
+				style="top: 40%; left: 10%; animation-delay: 4s"
+			>
+				@
+			</div>
+
+			<div
+				class="office-element lightbulb"
+				style="top: 30%; animation-delay: 0s"
+			></div>
+			<div
+				class="office-element paper-plane"
+				style="top: 70%; animation-delay: 5s"
+			></div>
+		</div>
+
+		<div class="container">
+			<!-- Header -->
+			<header class="header">
+				<div class="logo">🚀 NexusHub</div>
+				<div class="user-profile">
+					<div class="notification-bell">🔔</div>
+					<div>
+						<div style="font-weight: 600">Lubaba Radwan</div>
+						<div style="font-size: 14px; opacity: 0.8">Software Engineer</div>
+					</div>
+					<div class="avatar">LR</div>
+				</div>
+			</header>
+
+			<!-- Dashboard -->
+			<main class="dashboard">
+				<!-- Welcome Widget -->
+				<section class="widget welcome-widget" aria-label="Welcome section">
+					<div class="welcome-content">
+						<h2>Welcome back, Lubaba! ✨</h2>
+						<p>
+							Ready to make today productive? You have 3 meetings scheduled and
+							2 pending approvals waiting for your attention. Let's dive in!
+						</p>
+					</div>
+				</section>
+
+				<!-- Quick Stats -->
+				<section class="widget" aria-label="Quick statistics">
+					<div class="widget-header">
+						<h3 class="widget-title">Today's Stats</h3>
+						<div class="widget-icon">📊</div>
+					</div>
+					<div class="stats-grid">
+						<div class="stat-item" tabindex="0">
+							<span class="stat-number">12</span>
+							<span class="stat-label">Tasks Done</span>
+						</div>
+						<div class="stat-item" tabindex="0">
+							<span class="stat-number">3</span>
+							<span class="stat-label">Meetings</span>
+						</div>
+						<div class="stat-item" tabindex="0">
+							<span class="stat-number">8h</span>
+							<span class="stat-label">Focus Time</span>
+						</div>
+						<div class="stat-item" tabindex="0">
+							<span class="stat-number">5</span>
+							<span class="stat-label">Collaborations</span>
+						</div>
+					</div>
+				</section>
+
+				<!-- Calendar Widget -->
+				<section class="widget" aria-label="Calendar">
+					<div class="widget-header">
+						<h3 class="widget-title">July 2025</h3>
+						<div class="widget-icon">📅</div>
+					</div>
+					<div class="calendar">
+						<div class="calendar-header">This Week</div>
+						<div class="calendar-grid">
+							<div class="calendar-day">S</div>
+							<div class="calendar-day">M</div>
+							<div class="calendar-day">T</div>
+							<div class="calendar-day">W</div>
+							<div class="calendar-day">T</div>
+							<div class="calendar-day">F</div>
+							<div class="calendar-day">S</div>
+							<div class="calendar-day">27</div>
+							<div
+								class="calendar-day today"
+								tabindex="0"
+								aria-label="Today, July 28"
+							>
+								28
+							</div>
+							<div class="calendar-day" tabindex="0">29</div>
+							<div class="calendar-day" tabindex="0">30</div>
+							<div class="calendar-day" tabindex="0">31</div>
+							<div class="calendar-day" tabindex="0">1</div>
+							<div class="calendar-day" tabindex="0">2</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- Team Activity -->
+				<section class="widget" aria-label="Team activity">
+					<div class="widget-header">
+						<h3 class="widget-title">Team Activity</h3>
+						<div class="widget-icon">👥</div>
+					</div>
+					<div>
+						<div class="activity-item">
+							<div class="activity-avatar">SM</div>
+							<div class="activity-text">
+								Sarah shared the Q3 Marketing Plan
+							</div>
+							<div class="activity-time">2m ago</div>
+						</div>
+						<div class="activity-item">
+							<div class="activity-avatar">MK</div>
+							<div class="activity-text">Mike completed the UI mockups</div>
+							<div class="activity-time">15m ago</div>
+						</div>
+						<div class="activity-item">
+							<div class="activity-avatar">JD</div>
+							<div class="activity-text">
+								John started a new discussion in #dev-team
+							</div>
+							<div class="activity-time">1h ago</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- Projects Widget -->
+				<section class="widget" aria-label="Current projects">
+					<div class="widget-header">
+						<h3 class="widget-title">Active Projects</h3>
+						<div class="widget-icon">🎯</div>
+					</div>
+					<div>
+						<div class="project-item">
+							<div class="project-header">
+								<span class="project-name">Website Redesign</span>
+								<span class="project-status status-active">Active</span>
+							</div>
+							<div class="progress-bar">
+								<div class="progress-fill" style="width: 75%"></div>
+							</div>
+						</div>
+						<div class="project-item">
+							<div class="project-header">
+								<span class="project-name">Mobile App v2.0</span>
+								<span class="project-status status-review">Review</span>
+							</div>
+							<div class="progress-bar">
+								<div class="progress-fill" style="width: 90%"></div>
+							</div>
+						</div>
+						<div class="project-item">
+							<div class="project-header">
+								<span class="project-name">API Integration</span>
+								<span class="project-status status-active">Active</span>
+							</div>
+							<div class="progress-bar">
+								<div class="progress-fill" style="width: 45%"></div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- Quick Actions -->
+				<section class="widget quick-actions" aria-label="Quick actions">
+					<div class="widget-header">
+						<h3 class="widget-title">Quick Actions</h3>
+						<div class="widget-icon">⚡</div>
+					</div>
+					<div class="actions-grid">
+						<button
+							class="action-btn"
+							onclick="showNotification('New document created!')"
+						>
+							<div class="action-icon">📄</div>
+							<span>New Document</span>
+						</button>
+						<button
+							class="action-btn"
+							onclick="showNotification('Meeting scheduled!')"
+						>
+							<div class="action-icon">📞</div>
+							<span>Schedule Meeting</span>
+						</button>
+						<button
+							class="action-btn"
+							onclick="showNotification('Task created!')"
+						>
+							<div class="action-icon">✅</div>
+							<span>Create Task</span>
+						</button>
+						<button
+							class="action-btn"
+							onclick="showNotification('Team message sent!')"
+						>
+							<div class="action-icon">💬</div>
+							<span>Team Chat</span>
+						</button>
+						<button
+							class="action-btn"
+							onclick="showNotification('File uploaded!')"
+						>
+							<div class="action-icon">📤</div>
+							<span>Upload File</span>
+						</button>
+						<button
+							class="action-btn"
+							onclick="showNotification('Report generated!')"
+						>
+							<div class="action-icon">📈</div>
+							<span>Generate Report</span>
+						</button>
+					</div>
+				</section>
+			</main>
+		</div>
+
+		<footer class="Welcome">
+			<div class="footer-content">
+				<p>
+					Built with ❤️ and staying up late by
+					<a href="www.linkedin.com/in/lubaba-radwan"> Lubaba</a> for the
+					Frontend Challenge: Office Edition🚀
+				</p>
+			</div>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>
