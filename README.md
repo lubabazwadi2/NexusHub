@@ -104,9 +104,7 @@ python -m http.server 8000
 ## ♿ Accessibility Features
 
 - **Keyboard Navigation** - Full tab order and keyboard shortcuts
-- **Screen Reader Support** - Semantic HTML and ARIA labels
 - **High Contrast** - WCAG 2.1 AA compliant color ratios
-- **Reduced Motion** - Respects user's motion preferences
 - **Focus Indicators** - Clear visual focus states
 
 ## 🎯 Interactive Elements
@@ -140,10 +138,6 @@ Working through the night, I crafted NexusHub as more than just an intranet - it
 - **🤖 AI Assistant** - Smart workplace companion
 - **🔗 Tool Integration** - Connect with Slack, Teams, etc.
 
-## 📄 License
-
-MIT License - Feel free to use this code for your own projects!
-
 ## 🙏 Acknowledgments
 
 - **Axero Solutions** - For inspiring this vision of workplace collaboration
@@ -152,6 +146,7 @@ MIT License - Feel free to use this code for your own projects!
 
 ---
 
-_Built with ❤️ in 24 hours_
+_Built with ❤️ within 24 hours_
+![DonaldDuckSleepGIF](https://github.com/user-attachments/assets/97faf677-fbf9-4263-a451-8d480dbdd394)
 
 **Live Demo**: https://lubabazwadi2.github.io/NexusHub/
