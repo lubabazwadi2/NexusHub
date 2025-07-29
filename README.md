@@ -147,6 +147,7 @@ Working through the night, I crafted NexusHub as more than just an intranet - it
 ---
 
 _Built with ❤️ within 24 hours_
+
 ![DonaldDuckSleepGIF](https://github.com/user-attachments/assets/97faf677-fbf9-4263-a451-8d480dbdd394)
 
 **Live Demo**: https://lubabazwadi2.github.io/NexusHub/
